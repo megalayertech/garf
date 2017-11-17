@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CLICKING ON SEARCH" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d936d5b5-8b6e-4cab-b984-e9e79c55f7da" weightsEnabled="false">
+    <weighted-embedded-action uid="70dde2c3-8709-4831-abf0-f04296297dd5"/>
+</basic-logical-action-container>

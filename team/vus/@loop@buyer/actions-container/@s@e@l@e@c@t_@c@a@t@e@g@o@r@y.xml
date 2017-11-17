@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SELECT_CATEGORY" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9cdff363-e635-4d5d-98f8-e2ef50b1a3a0" weightsEnabled="false">
+    <weighted-embedded-action uid="50d43ea1-3ad0-49fb-9410-3069444a6a3c"/>
+    <weighted-embedded-action uid="33f7f7d7-29e4-4894-b0e7-bcb3293080e1"/>
+    <weighted-embedded-action uid="1b871c02-8401-43c2-b6c2-250da186e852"/>
+</basic-logical-action-container>

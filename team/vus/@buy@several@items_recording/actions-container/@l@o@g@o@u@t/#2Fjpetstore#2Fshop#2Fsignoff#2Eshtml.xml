@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/signoff.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@buy@several@items_recording/%resources%/recorded-artifacts/8de80fce-cd2f-4d4e-9a11-43479622b6bb.zip"
+    slaProfileEnabled="false" thinkTime="21691"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8de80fce-cd2f-4d4e-9a11-43479622b6bb">
+    <embedded-action>4151b94d-d25c-4a86-978f-f1d426b96d60</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8de80fce-cd2f-4d4e-9a11-43479622b6bb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/signoff.shtml"
+    path="/jpetstore/shop/signoff.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@buy@several@items_recording/%resources%/recorded-artifacts/8de80fce-cd2f-4d4e-9a11-43479622b6bb.zip"
+    recordedResponseCode="200" responseSize="5954"
+    serverUid="practise.neotys.com-2" slaProfileEnabled="false"
+    uid="4151b94d-d25c-4a86-978f-f1d426b96d60" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4151b94d-d25c-4a86-978f-f1d426b96d60.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4151b94d-d25c-4a86-978f-f1d426b96d60.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="JSESSIONID=${_xTid}"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/shop/newOrder.shtml?confirmed=true"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 18 Jul 2017 18:47:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Content-Length: 5954&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Set-Cookie: JSESSIONID=1F1C6E196EE6927A1A177CB13AD6F3EC; Path=/jpetstore/; HttpOnly</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

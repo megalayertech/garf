@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CHECKOUT" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c2d0c070-a225-4ced-beae-75c869c512dc" weightsEnabled="false">
+    <weighted-embedded-action uid="b047b0a2-80fb-42f4-9c9a-5a1c00e28ce2"/>
+    <weighted-embedded-action uid="01e31611-8036-46fe-b57d-314a37732f3a"/>
+    <weighted-embedded-action uid="d2f28d74-fec7-41ce-850a-45ffd89ea126"/>
+    <weighted-embedded-action uid="208d72fa-f90c-4e2b-8939-5523f7fe0a92"/>
+    <weighted-embedded-action uid="ceb5fa51-aef6-40d5-b144-f715265fc780"/>
+</basic-logical-action-container>

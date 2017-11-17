@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="starting inserted new recording" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="bf677e6b-9076-4097-872b-9bd2228b1ab4" weightsEnabled="false">
+    <weighted-embedded-action uid="e425c271-ccf0-4492-a4bc-a05e19bed546"/>
+    <weighted-embedded-action uid="88c6a1a7-a34d-4645-8095-69c8028875ea"/>
+</basic-logical-action-container>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CLICK_CHECKOUT" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d5804f5f-4619-4519-9f9e-8a055603aa8e" weightsEnabled="false">
+    <weighted-embedded-action uid="ff44fc69-aad3-482b-a0c1-b9e2415c7020"/>
+</basic-logical-action-container>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SELECTING SPOTTED KOI" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="403edc59-0174-44a0-85d4-ed6d586c5631" weightsEnabled="false">
+    <weighted-embedded-action uid="235f4bb2-d97e-4210-a048-b8cac3d69a57"/>
+</basic-logical-action-container>

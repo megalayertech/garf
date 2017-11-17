@@ -1,0 +1,5 @@
+<errorHandleSettings enabled="false">
+    <httpCode value="404"/>
+    <httpCode value=""/>
+    <httpCode value=""/>
+</errorHandleSettings>

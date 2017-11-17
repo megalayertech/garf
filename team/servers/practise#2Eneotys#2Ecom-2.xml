@@ -1,0 +1,8 @@
+<http-server hostname="practise.neotys.com" port="80" ssl="false"
+    uid="practise.neotys.com-2" urlrewriting-argument-name="jsessionid"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization password="CEcg+wHP+3Q=" realm="Restricted Access"
+        scheme="Basic" userName="learner"/>
+    <authorization password="CEcg+wHP+3Q=" realm="" scheme="Basic" userName="learner"/>
+</http-server>

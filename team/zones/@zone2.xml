@@ -1,0 +1,10 @@
+<zone dnsOverrideEnabled="false" lgIdentifier="" proxyType="COMMON"
+    proxyTypeLg="NO_PROXY" uid="Zone2">
+    <lg-proxy>
+        <proxy-config autoConfig="false" autoConfigScript=""
+            autoDiscover="false" cache="GLOBAL_CACHE_MODE"
+            exclustionList="" ftpHost="" ftpPort="21" httpHost=""
+            httpPort="80" httpsHost="" httpsPort="443" login=""
+            manualConfig="false" password=""/>
+    </lg-proxy>
+</zone>

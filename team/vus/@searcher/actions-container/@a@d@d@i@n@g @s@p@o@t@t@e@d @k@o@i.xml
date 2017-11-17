@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ADDING SPOTTED KOI" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="5d7a8a4c-c720-410c-ad44-215fc31fcf2c" weightsEnabled="false">
+    <weighted-embedded-action uid="7bf85d79-f680-4487-8eb1-681c979649a5"/>
+</basic-logical-action-container>

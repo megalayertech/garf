@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/viewProduct.shtml_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@while@buyer/%resources%/recorded-artifacts/850ec2e0-2ca8-4639-9eec-0665db9fe98b.zip"
+    slaProfileEnabled="false" thinkTime="2538"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="850ec2e0-2ca8-4639-9eec-0665db9fe98b">
+    <embedded-action>85a3464a-6f3e-4719-91af-f2a152aabb87</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a00d31dc-697c-4dd7-bf1d-98a3e501ed43.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/viewProduct.shtml"
+    path="/jpetstore/shop/viewProduct.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@while@buyer/%resources%/recorded-artifacts/850ec2e0-2ca8-4639-9eec-0665db9fe98b.zip"
+    recordedResponseCode="200" recordedResponseTime="54"
+    responseSize="4165" serverUid="practise.neotys.com-2"
+    slaProfileEnabled="false" uid="85a3464a-6f3e-4719-91af-f2a152aabb87" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_0b8ffe27-cab5-4efe-8190-f47c326f4434.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_8ada599b-23f2-4387-a70b-889d8bb3bf74.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="productId"
+        recordRawValue="RP-SN-01" separator="=" value="RP-SN-01" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="JSESSIONID=${_xTid}"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/shop/viewCategory.shtml?categoryId=${categoryId_3}&amp;id=${_xTid-1}"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Tue, 25 Jul 2017 19:28:05 GMT
+Server: Apache/2.2.31 (Amazon)
+Content-Length: 4165
+Connection: close
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,262 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    slaProfileEnabled="false" thinkTime="2463"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4f842270-33f7-4c82-930a-ef2c16baf110">
+    <embedded-action>d52e709a-6bdc-4678-9e9e-adb2352c4d63</embedded-action>
+    <embedded-action>19ef3d61-3150-4823-a1f9-874b358ecc42</embedded-action>
+    <embedded-action>ddaf1b9e-eca0-4644-b065-7fdbdeb49b44</embedded-action>
+    <embedded-action>c18b8f4c-000b-4427-a539-ca2ce37b718b</embedded-action>
+    <embedded-action>49156aae-d3e6-4228-b68d-8c2baa27dd21</embedded-action>
+    <embedded-action>36d92eea-a9f3-476a-af3e-da0ba54994cd</embedded-action>
+    <embedded-action>05e08b3a-3f50-45d9-b864-5acd3012a1f4</embedded-action>
+    <embedded-action>551fa97a-ceff-4af5-9e0e-371849e72862</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6dc12c64-bf04-43fd-9969-51ea1753a777.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="20626"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="d52e709a-6bdc-4678-9e9e-adb2352c4d63" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7b4ecbc3-4382-4780-8bf7-1b9b70682509.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7b4ecbc3-4382-4780-8bf7-1b9b70682509.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:56 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Fri, 22 Jan 2016 13:07:35 GMT&#xd;
+ETag: "421bc-5092-529ebe722475d"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 20626&#xd;
+Connection: close&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/styles/global.min.css"
+    path="/resources/styles/global.min.css" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="63142"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="19ef3d61-3150-4823-a1f9-874b358ecc42" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fd156638-82c0-49bd-9cb8-b90d50f5f225.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fd156638-82c0-49bd-9cb8-b90d50f5f225.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:56 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Thu, 14 Jan 2016 16:35:18 GMT&#xd;
+ETag: "4215d-f6a6-5294ddf4a70b0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 63142&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/images/logo-neotys.png"
+    path="/resources/images/logo-neotys.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="ddaf1b9e-eca0-4644-b065-7fdbdeb49b44" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ddaf1b9e-eca0-4644-b065-7fdbdeb49b44.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_640553e6-00b8-4a71-b66d-108ffb7063a1.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:56 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Tue, 08 Dec 2015 17:33:20 GMT&#xd;
+ETag: "42152-20f2-526665ea5d800"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 8434&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/images/badge_appstore-lrg.svg"
+    path="/resources/images/badge_appstore-lrg.svg" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="12353"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="c18b8f4c-000b-4427-a539-ca2ce37b718b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b75b68bc-331a-497f-904b-b4ce4fa108aa.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b75b68bc-331a-497f-904b-b4ce4fa108aa.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:56 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Fri, 03 Apr 2015 17:56:53 GMT&#xd;
+ETag: "42001-3041-512d5ac622340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 12353&#xd;
+Connection: close&#xd;
+Content-Type: image/svg+xml</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/images/en-play-badge.png"
+    path="/resources/images/en-play-badge.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="49156aae-d3e6-4228-b68d-8c2baa27dd21" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_49156aae-d3e6-4228-b68d-8c2baa27dd21.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d29d5a08-0151-4f65-b804-af097298fe6a.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:56 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Thu, 05 Nov 2015 10:15:00 GMT&#xd;
+ETag: "42000-5076-523c866485100"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 20598&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/resources/images/English_wstore_black_258x67.png"
+    path="/resources/images/English_wstore_black_258x67.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="36d92eea-a9f3-476a-af3e-da0ba54994cd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_36d92eea-a9f3-476a-af3e-da0ba54994cd.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e9025571-916c-4ce4-a612-805b0f05e1de.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:56 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Thu, 05 Mar 2015 15:55:52 GMT&#xd;
+ETag: "421ba-1112-5108c9a323200"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4370&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/images/arrow-main-menu.png"
+    path="/resources/images/arrow-main-menu.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="05e08b3a-3f50-45d9-b864-5acd3012a1f4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_05e08b3a-3f50-45d9-b864-5acd3012a1f4.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_be6b5050-6e52-453b-afee-54ca579d4744.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:58 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Tue, 08 Dec 2015 17:33:20 GMT&#xd;
+ETag: "42005-45b-526665ea5d800"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1115&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/images/favicon-32x32.png"
+    path="/resources/images/favicon-32x32.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/4f842270-33f7-4c82-930a-ef2c16baf110.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="551fa97a-ceff-4af5-9e0e-371849e72862" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_551fa97a-ceff-4af5-9e0e-371849e72862.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_44759c03-0400-4817-8b1b-7d9b3bef529f.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 14:37:59 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Last-Modified: Tue, 08 Dec 2015 17:33:19 GMT&#xd;
+ETag: "4216a-695-526665e9695c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1685&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

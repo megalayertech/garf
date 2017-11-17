@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ENTERING A SEARCH" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="8b5b64d2-2693-4136-899c-24655051e886" weightsEnabled="false">
+    <weighted-embedded-action uid="4c11e913-5bc2-4ef2-9a13-559ef13c582d"/>
+</basic-logical-action-container>

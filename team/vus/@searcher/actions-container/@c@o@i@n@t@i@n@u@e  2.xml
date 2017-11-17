@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="COINTINUE  2" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f12486cc-c0f4-4eaa-9f81-86ba96965f0d" weightsEnabled="false">
+    <weighted-embedded-action uid="54dbad17-dd7f-4fc7-a23b-33457757ee82"/>
+</basic-logical-action-container>

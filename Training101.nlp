@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=Training101
+project.config.storage=ZIP
+project.id=9a14dd10-bcc1-4539-993f-5d466feba724
+team.server.enabled=true
+product.original.name=NeoLoad
+product.name=NeoLoad
+product.original.version=5.4.0
+project.config.path=config.zip
+project.version=6.1
+project.original.version=5.3
+team.server.project=megalayertech/garf

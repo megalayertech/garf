@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/index.shtml" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/e425c271-ccf0-4492-a4bc-a05e19bed546.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e425c271-ccf0-4492-a4bc-a05e19bed546">
+    <embedded-action>c1de40f4-c959-47dd-b69f-996a25dad894</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e425c271-ccf0-4492-a4bc-a05e19bed546.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/index.shtml"
+    path="/jpetstore/shop/index.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/e425c271-ccf0-4492-a4bc-a05e19bed546.zip"
+    recordedResponseCode="200"
+    refererUid="485c22e6-e17d-424e-ba21-1e345040a616"
+    responseSize="5954" serverUid="practise.neotys.com"
+    slaProfileEnabled="false" uid="c1de40f4-c959-47dd-b69f-996a25dad894" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c1de40f4-c959-47dd-b69f-996a25dad894.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c1de40f4-c959-47dd-b69f-996a25dad894.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=6A058AF5F313551BF9124BA27201EA17"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/48.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 15:15:44 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Content-Length: 5954&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Inserted Content" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e0812b94-c8a6-41e9-9c06-b572e495d2e2" weightsEnabled="false">
+    <weighted-embedded-action uid="322d5631-51a4-489f-916b-f695fd56be3a"/>
+</basic-logical-action-container>

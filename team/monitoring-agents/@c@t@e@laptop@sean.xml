@@ -1,0 +1,70 @@
+<me-host loadWeight="1" standalone="false" supportWANEmulation="false"
+    uid="CTELaptopSean" version="6.1.1;build=20170915-49">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:b1af:d74a:7bd1:5a63%wlan1">
+            <ip value="fe80:0:0:0:b1af:d74a:7bd1:5a63%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Juniper Network Connect Virtual Adapter"
+        enabled="false" isLoopBack="false" name="eth6">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:c80a:2c9f:52e3:88b1%eth6">
+            <ip value="fe80:0:0:0:c80a:2c9f:52e3:88b1%eth6"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:b44d:d086:8004:4683%eth0">
+            <ip value="fe80:0:0:0:b44d:d086:8004:4683%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth11">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:e1:369:f6cc:7c32%eth11">
+            <ip value="fe80:0:0:0:e1:369:f6cc:7c32%eth11"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Intel(R) Dual Band Wireless-AC 7265"
+        enabled="false" isLoopBack="false" name="wlan4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="ctelaptopsean.aarons.aaronrents.com">
+            <ip value="10.2.0.93"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:ddf2:ddb2:add4:f846%wlan4">
+            <ip value="fe80:0:0:0:ddf2:ddb2:add4:f846%wlan4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) Ethernet Connection (3) I218-LM"
+        enabled="false" isLoopBack="false" name="eth10">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:cd41:c22c:27a:75c1%eth10">
+            <ip value="fe80:0:0:0:cd41:c22c:27a:75c1%eth10"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

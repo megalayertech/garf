@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CLICK_SUBMIT" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="37301c19-606a-414f-a645-c80915f8fe22" weightsEnabled="false">
+    <weighted-embedded-action uid="8824848a-bebb-474d-a30b-9429f737ccd7"/>
+</basic-logical-action-container>

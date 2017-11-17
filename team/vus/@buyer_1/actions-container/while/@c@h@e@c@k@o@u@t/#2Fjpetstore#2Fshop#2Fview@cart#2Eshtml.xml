@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/viewCart.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@buyer_1/%resources%/recorded-artifacts/5af2f451-cffb-460e-b0a0-36898ea2b82b.zip"
+    slaProfileEnabled="false" thinkTime="12620"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5af2f451-cffb-460e-b0a0-36898ea2b82b">
+    <embedded-action>2335977d-2c10-49a6-a1b3-e8f251fa8910</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f238d51c-7a38-46c5-97f1-f080af668871.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/viewCart.shtml"
+    path="/jpetstore/shop/viewCart.shtml" postCharset="" postType="1"
+    recordedArtifactZipFileName="team/vus/@buyer_1/%resources%/recorded-artifacts/5af2f451-cffb-460e-b0a0-36898ea2b82b.zip"
+    recordedResponseCode="200" responseSize="6185"
+    serverUid="practise.neotys.com-2" slaProfileEnabled="false"
+    uid="2335977d-2c10-49a6-a1b3-e8f251fa8910" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e11f1b9a-f568-422a-90cf-66cb3bcd7e32.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e11f1b9a-f568-422a-90cf-66cb3bcd7e32.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1"
+        endsWithSimple="&lt;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="_xTTotals"
+        refererUid="2142538f-e8f1-4e38-bf89-806144c6c9e4"
+        regExp="Sub Total: \$(.*?)&lt;"
+        regExpAdv="Sub Total: \$(.*?)&lt;" setDefaultValue="true"
+        startsWithSimple="Sub Total: $" template="$1$" templateAdv="$1$"
+        uid="6c99ad97-a96a-4f96-afb2-cf526d957723" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="JSESSIONID=${_xTid}"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/shop/index.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 18 Jul 2017 18:44:32 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Content-Length: 6185&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

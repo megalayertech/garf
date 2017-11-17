@@ -1,0 +1,10 @@
+<while-action name="while" uid="6b841cf5-7d4d-46a6-a63e-1ae0f7632606">
+    <embedded-action>a6d4d5b5-e1b3-4e6d-9cbe-5590721a8a20</embedded-action>
+    <embedded-action>49cd89b5-8db7-4ab8-9743-1969a216967f</embedded-action>
+    <embedded-action>a55e9893-e2a6-4250-b8cf-272f22fb2fa0</embedded-action>
+    <embedded-action>54f0d9ca-d4ea-4969-bea5-fac57f65650a</embedded-action>
+    <embedded-action>bb91a57c-2597-436b-bdb6-b3c252eb8ce3</embedded-action>
+    <conditions match-type="1">
+        <condition operand1="${_xTTotals}" operand2="500" operator="LESSER_THAN"/>
+    </conditions>
+</while-action>

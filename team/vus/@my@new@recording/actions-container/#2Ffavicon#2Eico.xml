@@ -1,0 +1,35 @@
+<http-page executeResourcesDynamically="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/19ab7293-c2cb-4ac5-ab48-6b4b717a87ce.zip"
+    slaProfileEnabled="false" thinkTime="518"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="19ab7293-c2cb-4ac5-ab48-6b4b717a87ce">
+    <embedded-action>56d027bd-fab6-4530-9187-c35d6bba5ac9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_19ab7293-c2cb-4ac5-ab48-6b4b717a87ce.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/vnd.microsoft.icon"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/19ab7293-c2cb-4ac5-ab48-6b4b717a87ce.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="56d027bd-fab6-4530-9187-c35d6bba5ac9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_56d027bd-fab6-4530-9187-c35d6bba5ac9</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_56d027bd-fab6-4530-9187-c35d6bba5ac9.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Last-Modified: Wed, 26 Jun 2013 21:08:34 GMT&#xd;
+ETag: "a09bc-547e-4e0150c693880"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 21630&#xd;
+Content-Type: image/vnd.microsoft.icon</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

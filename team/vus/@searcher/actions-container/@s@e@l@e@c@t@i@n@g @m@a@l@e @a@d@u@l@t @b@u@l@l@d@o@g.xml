@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SELECTING MALE ADULT BULLDOG" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="edec13b9-22e2-4e59-a6af-8ebeb1ed3b67" weightsEnabled="false">
+    <weighted-embedded-action uid="2c0070a1-2d99-46d9-824e-5f883a4aace5"/>
+</basic-logical-action-container>

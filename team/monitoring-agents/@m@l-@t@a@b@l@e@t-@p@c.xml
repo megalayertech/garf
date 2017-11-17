@@ -1,0 +1,36 @@
+<me-host loadWeight="1" standalone="false" supportWANEmulation="false"
+    uid="ML-TABLET-PC" version="6.1.2;build=20170926-55">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Realtek RTL8723BS Wireless LAN 802.11n SDIO Network Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="ml-tablet-pc">
+            <ip value="10.2.0.75"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:c5f1:5d54:d768:2d0e%wlan1">
+            <ip value="fe80:0:0:0:c5f1:5d54:d768:2d0e%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:3441:739:c0f7:195a%eth0">
+            <ip value="fe80:0:0:0:3441:739:c0f7:195a%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

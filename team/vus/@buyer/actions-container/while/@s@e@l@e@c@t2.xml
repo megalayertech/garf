@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SELECT2" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="49f865ce-a922-471e-94d3-d8243eda2937" weightsEnabled="false">
+    <weighted-embedded-action uid="7365781d-5e0d-45ad-b53e-569774383d68"/>
+    <weighted-embedded-action uid="0457cdd6-5d09-442e-9795-68295d7c7714"/>
+    <weighted-embedded-action uid="737dc108-2521-4a30-a01c-58ed643c72ff"/>
+    <weighted-embedded-action uid="2faec07d-0dbe-4728-8dad-50a4948e6876"/>
+</basic-logical-action-container>

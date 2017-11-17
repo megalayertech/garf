@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CONFIRM ORDER &amp; CONTINUE" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="13bd269c-b8cd-4d2f-b7ee-3b72530993d9" weightsEnabled="false">
+    <weighted-embedded-action uid="aa3875a6-1aee-48bd-9b8b-ebb4e2f6cc63"/>
+</basic-logical-action-container>

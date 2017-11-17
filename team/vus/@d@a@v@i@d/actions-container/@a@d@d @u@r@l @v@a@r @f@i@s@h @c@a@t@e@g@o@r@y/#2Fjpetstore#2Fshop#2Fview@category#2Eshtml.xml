@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/viewCategory.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/ec54004c-c186-4877-8260-9f63a19b45e4.zip"
+    slaProfileEnabled="false" thinkTime="23001"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ec54004c-c186-4877-8260-9f63a19b45e4">
+    <embedded-action>769fde99-1650-4878-b559-8e312cda5ee3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ec54004c-c186-4877-8260-9f63a19b45e4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/viewCategory.shtml"
+    path="/jpetstore/shop/viewCategory.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@a@v@i@d/%resources%/recorded-artifacts/ec54004c-c186-4877-8260-9f63a19b45e4.zip"
+    recordedResponseCode="200"
+    refererUid="99101f47-5a08-4552-9622-c6ff8111126d"
+    responseSize="3774" serverUid="practise.neotys.com"
+    slaProfileEnabled="false" uid="769fde99-1650-4878-b559-8e312cda5ee3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_769fde99-1650-4878-b559-8e312cda5ee3.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_769fde99-1650-4878-b559-8e312cda5ee3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="categoryId"
+        recordRawValue="FISH" separator="=" value="FISH" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="1497885349252" separator="="
+        value="1497885349252" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="RANDOMN_VAR"
+        recordRawValue="9785347890534789543" separator="="
+        value="9785347890534789543" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=6A058AF5F313551BF9124BA27201EA17"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/48.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 15:16:25 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Content-Length: 3774&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="5"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

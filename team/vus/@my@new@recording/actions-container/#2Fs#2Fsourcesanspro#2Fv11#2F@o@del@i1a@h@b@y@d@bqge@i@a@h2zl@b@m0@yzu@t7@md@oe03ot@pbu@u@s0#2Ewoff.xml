@@ -1,0 +1,37 @@
+<http-page executeResourcesDynamically="false"
+    name="/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/07527fed-0fac-4e42-8313-ac77d0392648.zip"
+    slaProfileEnabled="false" thinkTime="1063"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="07527fed-0fac-4e42-8313-ac77d0392648">
+    <embedded-action>7b67f7a1-70d7-4204-91d9-b1685bd3427d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_07527fed-0fac-4e42-8313-ac77d0392648.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/resources/images/favicon-32x32.png"
+    path="/resources/images/favicon-32x32.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/07527fed-0fac-4e42-8313-ac77d0392648.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="7b67f7a1-70d7-4204-91d9-b1685bd3427d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7b67f7a1-70d7-4204-91d9-b1685bd3427d.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7b67f7a1-70d7-4204-91d9-b1685bd3427d.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:09:58 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Last-Modified: Tue, 08 Dec 2015 17:33:19 GMT&#xd;
+ETag: "c14fb-695-526665e9695c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1685&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

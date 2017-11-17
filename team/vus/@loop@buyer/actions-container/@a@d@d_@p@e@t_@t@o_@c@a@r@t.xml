@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ADD_PET_TO_CART" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="580e4c4c-9f48-4f49-9a0e-74d7b0757339" weightsEnabled="false">
+    <weighted-embedded-action uid="d4677f4e-0add-4810-b5bd-83be0b21da02"/>
+</basic-logical-action-container>

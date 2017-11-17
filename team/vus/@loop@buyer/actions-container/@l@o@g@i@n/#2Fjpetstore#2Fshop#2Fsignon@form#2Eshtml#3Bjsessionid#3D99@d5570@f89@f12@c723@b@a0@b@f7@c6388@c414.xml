@@ -1,0 +1,108 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/signonForm.shtml;jsessionid=99D5570F89F12C723BA0BF7C6388C414"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@loop@buyer/%resources%/recorded-artifacts/d5ce633b-1af2-452a-b5c0-9b4773077797.zip"
+    slaProfileEnabled="false" thinkTime="10242"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d5ce633b-1af2-452a-b5c0-9b4773077797">
+    <embedded-action>2525ebd7-53c3-4324-b41f-40a3f76b2783</embedded-action>
+    <embedded-action>ac5c4cf0-9b7d-433a-b70d-49124bfd82b2</embedded-action>
+    <embedded-action>0fd07a25-dd87-4c17-ad1d-4f61895c8aa8</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_7db12edb-3b53-4439-9592-b7e04cea72c0.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/jpetstore/shop/signonForm.shtml;jsessionid=99D5570F89F12C723BA0BF7C6388C414"
+    path="/jpetstore/shop/signonForm.shtml;jsessionid=${_xTid}"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@loop@buyer/%resources%/recorded-artifacts/d5ce633b-1af2-452a-b5c0-9b4773077797.zip"
+    recordedResponseCode="200" responseSize="3183"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="2525ebd7-53c3-4324-b41f-40a3f76b2783" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bf5baba1-de06-47dd-87e9-9d26aa6bf7f3.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bf5baba1-de06-47dd-87e9-9d26aa6bf7f3.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="JSESSIONID=${_xTid}"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/shop/index.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 18 Jul 2017 14:14:24 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Content-Length: 3183&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;636-1088123460000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 00:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/button_submit.gif"
+    path="/jpetstore/images/button_submit.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@loop@buyer/%resources%/recorded-artifacts/d5ce633b-1af2-452a-b5c0-9b4773077797.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="ac5c4cf0-9b7d-433a-b70d-49124bfd82b2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ac5c4cf0-9b7d-433a-b70d-49124bfd82b2.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_da8f3145-95e3-423b-88b4-6310dcd268cf.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="JSESSIONID=${_xTid}"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/shop/signonForm.shtml;jsessionid=${_xTid}"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 18 Jul 2017 14:14:24 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"636-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 636&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;1115-1088123460000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 00:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/button_register_now.gif"
+    path="/jpetstore/images/button_register_now.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@loop@buyer/%resources%/recorded-artifacts/d5ce633b-1af2-452a-b5c0-9b4773077797.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="0fd07a25-dd87-4c17-ad1d-4f61895c8aa8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0fd07a25-dd87-4c17-ad1d-4f61895c8aa8.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2f9a604f-d1d1-4af9-afea-aea55cdc3b3c.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="JSESSIONID=${_xTid}"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/shop/signonForm.shtml;jsessionid=${_xTid}"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 18 Jul 2017 14:14:24 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"1115-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 1115&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,305 @@
+<http-page executeResourcesDynamically="false" name="/jpetstore"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    slaProfileEnabled="false" thinkTime="6597"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32">
+    <embedded-action>b375e36f-ec49-4a3f-94cd-e067da59a7eb</embedded-action>
+    <embedded-action>ed5087ff-21f1-4d29-a4c9-8ba0358e7aba</embedded-action>
+    <embedded-action>21a57531-28c2-40c7-a10f-4659ef5c142b</embedded-action>
+    <embedded-action>a7bb3a26-2de9-40e9-b148-f8c22683e4bb</embedded-action>
+    <embedded-action>c149e1e6-4372-46ad-b8d1-c1525f716e50</embedded-action>
+    <embedded-action>7b99791d-bebf-4191-8d58-9fcae7df867b</embedded-action>
+    <embedded-action>6af247f4-61ab-4f55-97ac-e391b40c4dbc</embedded-action>
+    <embedded-action>8bd7a40f-f40d-49a5-83b1-97806281ff2d</embedded-action>
+    <embedded-action>b775714d-9519-45a1-854d-42dd696dade7</embedded-action>
+    <embedded-action>b366ee22-a3b9-4b26-9816-95e796d10a79</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore" path="/jpetstore" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="b375e36f-ec49-4a3f-94cd-e067da59a7eb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b375e36f-ec49-4a3f-94cd-e067da59a7eb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b375e36f-ec49-4a3f-94cd-e067da59a7eb.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Date: Wed, 25 Oct 2017 20:10:06 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Location: http://practise.neotys.com/jpetstore/&#xd;
+Content-Length: 0&#xd;
+Content-Type: text/plain; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/" path="/jpetstore/" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200"
+    refererUid="b375e36f-ec49-4a3f-94cd-e067da59a7eb"
+    responseSize="1433" serverUid="practise.neotys.com"
+    slaProfileEnabled="false" uid="ed5087ff-21f1-4d29-a4c9-8ba0358e7aba" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ed5087ff-21f1-4d29-a4c9-8ba0358e7aba.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ed5087ff-21f1-4d29-a4c9-8ba0358e7aba.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:06 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"1433-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 1433&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/cart.gif"
+    path="/jpetstore/images/cart.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="21a57531-28c2-40c7-a10f-4659ef5c142b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_21a57531-28c2-40c7-a10f-4659ef5c142b.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_21a57531-28c2-40c7-a10f-4659ef5c142b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"96-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 96&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/separator.gif"
+    path="/jpetstore/images/separator.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="a7bb3a26-2de9-40e9-b148-f8c22683e4bb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a7bb3a26-2de9-40e9-b148-f8c22683e4bb.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a7bb3a26-2de9-40e9-b148-f8c22683e4bb.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"46-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 46&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/logo-topbar.gif"
+    path="/jpetstore/images/logo-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="c149e1e6-4372-46ad-b8d1-c1525f716e50" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c149e1e6-4372-46ad-b8d1-c1525f716e50.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c149e1e6-4372-46ad-b8d1-c1525f716e50.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"3808-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 3808&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/sign-in.gif"
+    path="/jpetstore/images/sign-in.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="7b99791d-bebf-4191-8d58-9fcae7df867b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7b99791d-bebf-4191-8d58-9fcae7df867b.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7b99791d-bebf-4191-8d58-9fcae7df867b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"257-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 257&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/help.gif"
+    path="/jpetstore/images/help.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="6af247f4-61ab-4f55-97ac-e391b40c4dbc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6af247f4-61ab-4f55-97ac-e391b40c4dbc.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6af247f4-61ab-4f55-97ac-e391b40c4dbc.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"134-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 134&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/search.gif"
+    path="/jpetstore/images/search.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="8bd7a40f-f40d-49a5-83b1-97806281ff2d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8bd7a40f-f40d-49a5-83b1-97806281ff2d.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8bd7a40f-f40d-49a5-83b1-97806281ff2d.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"323-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 323&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/poweredby.gif"
+    path="/jpetstore/images/poweredby.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="b775714d-9519-45a1-854d-42dd696dade7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b775714d-9519-45a1-854d-42dd696dade7.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b775714d-9519-45a1-854d-42dd696dade7.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"2722-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 2722&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/images/bkg-topbar.gif"
+    path="/jpetstore/images/bkg-topbar.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/@my@new@recording/%resources%/recorded-artifacts/3f336e30-1ae7-44d3-bfca-fc2fd6ea2d32.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="b366ee22-a3b9-4b26-9816-95e796d10a79" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b366ee22-a3b9-4b26-9816-95e796d10a79.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b366ee22-a3b9-4b26-9816-95e796d10a79.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Host" value="practise.neotys.com"/>
+    <header name="Referer" value="http://practise.neotys.com/jpetstore/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 25 Oct 2017 20:10:07 GMT&#xd;
+Server: Apache/2.2.15 (CentOS)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"959-1088123460000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 00:31:00 GMT&#xd;
+Content-Length: 959&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,30 @@
+<population uid="PopBuyers">
+    <split cache="1" factor="50.0" virtualUserUid="Buyer">
+        <browser-profile connections="6" cookies="true" http2="false"
+            name="Chrome 12.0" userAgent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30"/>
+        <wan-emulation-profile averageDownloadBandwidth="6Mbps"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="2Mbps" averageUploadLatency="0ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="10Mbps"
+            downloadLatency="0ms" downloadPacketLoss="0%" isRadio="true"
+            name="WiMAX" poorDownloadBandwidth="3Mbps"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="1Mbps" poorUploadLatency="0ms"
+            poorUploadPacketLoss="1%" signalStrength="AVERAGE"
+            uploadBandwidth="3Mbps" uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="50.0" virtualUserUid="Buyer">
+        <browser-profile connections="4" cookies="true" http2="false"
+            name="iPad 3" userAgent="Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25"/>
+        <wan-emulation-profile averageDownloadBandwidth="570Kbps"
+            averageDownloadLatency="70ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="290Kbps" averageUploadLatency="75ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="850Kbps"
+            downloadLatency="40ms" downloadPacketLoss="0%"
+            isRadio="true" name="3G" poorDownloadBandwidth="300Kbps"
+            poorDownloadLatency="150ms" poorDownloadPacketLoss="1%"
+            poorUploadBandwidth="150Kbps" poorUploadLatency="160ms"
+            poorUploadPacketLoss="0%" signalStrength="POOR"
+            uploadBandwidth="420Kbps" uploadLatency="45ms" uploadPacketLoss="0%"/>
+    </split>
+</population>

@@ -1,0 +1,14 @@
+<wsSecuritySettings>
+    <wss-outProfile name="Profile">
+        <wss-header actor="" mustUnderstand="false">
+            <wss-signature alias="${NL-CustomResources}"
+                canonicalAlgo="c14n_with_comments" digestAlgo="sha1"
+                keyIdentifier="issuerReference"
+                keystore="SMLD=FARVFEGNUGENT"
+                password="o+49tlOpjXcMok/+zO7Q2g==" signAlgo="rsa_sha1" useSingleCert="false">
+                <wss-part encMod="content" id="IdSpacesID"
+                    name="NameSpacesID" namespace="whitespaces"/>
+            </wss-signature>
+        </wss-header>
+    </wss-outProfile>
+</wsSecuritySettings>

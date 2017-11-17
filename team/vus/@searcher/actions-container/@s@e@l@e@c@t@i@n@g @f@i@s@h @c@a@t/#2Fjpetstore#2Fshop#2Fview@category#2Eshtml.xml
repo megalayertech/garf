@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/viewCategory.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@searcher/%resources%/recorded-artifacts/773c00e1-a404-4e6e-9f13-1952745b5933.zip"
+    slaProfileEnabled="false" thinkTime="5313"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="773c00e1-a404-4e6e-9f13-1952745b5933">
+    <embedded-action>084f5d58-f16e-4982-9a9e-c6b2e21acfc1</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_419474f1-0db5-4b17-97a8-b0792b3625eb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/viewCategory.shtml"
+    path="/jpetstore/shop/viewCategory.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/@searcher/%resources%/recorded-artifacts/773c00e1-a404-4e6e-9f13-1952745b5933.zip"
+    recordedResponseCode="200" responseSize="3774"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="084f5d58-f16e-4982-9a9e-c6b2e21acfc1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a1046668-17bb-4f54-8f0a-e8fa53cbcf12.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a1046668-17bb-4f54-8f0a-e8fa53cbcf12.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="categoryId"
+        recordRawValue="FISH" separator="=" value="FISH" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="1497888670912" separator="="
+        value="${Ex_Animals_Unique_ID}" valueMode="USE_VALUE">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_13"
+            refererUid="de560d79-9802-437d-b90e-734bcc62c77d"
+            regExp="id=([^&amp;]*?)&quot;"
+            regExpAdv="id=([^&amp;]*?)&quot;" setDefaultValue="true"
+            startsWithSimple="" template="$1$" templateAdv="$1$"
+            uid="0278f2c6-5dd1-4bc3-89c5-e9b6580b5f56" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Cookie" value="JSESSIONID=01FBD708D8163E7ECA332C7590AAEE9E"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Referer" value="http://52.206.109.101/jpetstore/shop/index.shtml;jsessionid=01FBD708D8163E7ECA332C7590AAEE9E"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/48.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 16:11:25 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Content-Length: 3774&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="10"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

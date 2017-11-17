@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SELECTING FISH CAT" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="27b5ee9a-21b5-4687-83e6-18927cba5309" weightsEnabled="false">
+    <weighted-embedded-action uid="773c00e1-a404-4e6e-9f13-1952745b5933"/>
+</basic-logical-action-container>
