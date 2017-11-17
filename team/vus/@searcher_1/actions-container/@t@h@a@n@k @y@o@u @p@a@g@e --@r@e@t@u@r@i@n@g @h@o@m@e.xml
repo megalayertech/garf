@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="THANK YOU PAGE --RETURING HOME" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="aebc7f22-4722-4af3-bde7-1827da9c22a2" weightsEnabled="false">
+    <weighted-embedded-action uid="65b35529-ea61-4f8a-acbc-063cb936a30a"/>
+</basic-logical-action-container>

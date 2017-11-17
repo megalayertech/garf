@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SELECTING DOGS" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d59dc5b4-6549-4d59-b9c9-f753ec17140e" weightsEnabled="false">
+    <weighted-embedded-action uid="10861368-5268-466b-b016-a0453fb2e59c"/>
+</basic-logical-action-container>

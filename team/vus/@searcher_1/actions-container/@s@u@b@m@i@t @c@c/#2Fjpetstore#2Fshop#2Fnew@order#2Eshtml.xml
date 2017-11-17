@@ -1,0 +1,240 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/newOrder.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@searcher_1/%resources%/recorded-artifacts/59d6d1fe-4336-42ab-9601-c13d8d21741a.zip"
+    slaProfileEnabled="false" thinkTime="8106"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="59d6d1fe-4336-42ab-9601-c13d8d21741a">
+    <embedded-action>ecd32ce0-3d4e-4cfe-a988-b596f96986a4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8fc6b108-f56f-4464-b77d-74edb89b10c0.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/jpetstore/shop/newOrder.shtml"
+    path="/jpetstore/shop/newOrder.shtml" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@searcher_1/%resources%/recorded-artifacts/59d6d1fe-4336-42ab-9601-c13d8d21741a.zip"
+    recordedResponseCode="200" responseSize="4779"
+    serverUid="practise.neotys.com" slaProfileEnabled="false"
+    uid="ecd32ce0-3d4e-4cfe-a988-b596f96986a4" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[b3JkZXIuY2FyZFR5cGU9VmlzYSZvcmRlci5jcmVkaXRDYXJkPTk5OSs5OTk5Kzk5OTkrOTk5OSZvcmRlci5leHBpcnlEYXRlPTEyJTJGMDMmb3JkZXIuYmlsbFRvRmlyc3ROYW1lPUFCQyZvcmRlci5iaWxsVG9MYXN0TmFtZT1YWVgmb3JkZXIuYmlsbEFkZHJlc3MxPTkwMStTYW4rQW50b25pbytSb2FkJm9yZGVyLmJpbGxBZGRyZXNzMj1NUytVQ1VQMDItMjA2Jm9yZGVyLmJpbGxDaXR5PVBhbG8rQWx0byZvcmRlci5iaWxsU3RhdGU9Q0Emb3JkZXIuYmlsbFppcD05NDMwMyZvcmRlci5iaWxsQ291bnRyeT1VU0EmeD0yNSZ5PTc=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_2da7775c-5887-4628-bdf9-728ec30d5d2c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2da7775c-5887-4628-bdf9-728ec30d5d2c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.cardType" recordRawValue="Visa" separator="="
+        value="Visa" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.creditCard" recordRawValue="999+9999+9999+9999"
+        separator="=" value="999 9999 9999 9999" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_2"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.creditCard[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.creditCard[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="8c229377-4ee7-48c0-b6de-528b11aff183" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.expiryDate" recordRawValue="12%2F03" separator="="
+        value="12/03" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_3"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.expiryDate[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.expiryDate[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="81732dc0-5f54-4f59-8738-8f0eee64935f" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billToFirstName" recordRawValue="ABC" separator="="
+        value="ABC" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_4"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billToFirstName[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billToFirstName[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="4a1d354b-6c78-4f05-8d91-f8d0b8d0de77" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billToLastName" recordRawValue="XYX" separator="="
+        value="XYX" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_11"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billToLastName[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billToLastName[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="8cce2d1b-5db8-4ca5-8ee6-741e2a6e0ed8" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billAddress1" recordRawValue="901+San+Antonio+Road"
+        separator="=" value="901 San Antonio Road" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_5"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billAddress1[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billAddress1[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="13dfa3a5-323f-4ccb-8eee-ed79b37ebcc3" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billAddress2" recordRawValue="MS+UCUP02-206"
+        separator="=" value="MS UCUP02-206" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_6"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billAddress2[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billAddress2[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="8c7c9561-ce0d-4c58-9b9a-9194841d2679" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billCity" recordRawValue="Palo+Alto" separator="="
+        value="Palo Alto" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_7"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billCity[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billCity[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="8f89b3f2-af00-4944-9c79-4a1409442459" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billState" recordRawValue="CA" separator="="
+        value="CA" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_8"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billState[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billState[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="df7dc702-c3e0-4114-8c73-3adc18eb6c9a" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="order.billZip"
+        recordRawValue="94303" separator="=" value="94303" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_9"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billZip[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billZip[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="e7b0aa9c-3976-4d06-908f-bd452e9ae387" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="order.billCountry" recordRawValue="USA" separator="="
+        value="USA" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param_10"
+            refererUid="29e7c5f9-de1b-4bc1-8b0f-0d715cd52111"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billCountry[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']order\.billCountry[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="e9f81641-c0b9-4e54-8222-2b6fb5e13a6f" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="x"
+        recordRawValue="25" separator="=" value="25" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="y"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=01FBD708D8163E7ECA332C7590AAEE9E"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="52.206.109.101"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Referer" value="http://52.206.109.101/jpetstore/shop/newOrderForm.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/48.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 19 Jun 2017 16:14:21 GMT&#xd;
+Server: Apache/2.2.31 (Amazon)&#xd;
+Content-Length: 4779&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorId="orderBean" extractorName="orderBean"
+        extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+</http-action>

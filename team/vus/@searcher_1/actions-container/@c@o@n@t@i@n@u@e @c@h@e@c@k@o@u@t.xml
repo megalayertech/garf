@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CONTINUE CHECKOUT" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="28539f76-7f57-4590-a5b3-1a966529ebbc" weightsEnabled="false">
+    <weighted-embedded-action uid="45ecb369-711e-4eea-b3a0-3175d56d8366"/>
+</basic-logical-action-container>

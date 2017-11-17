@@ -1,7 +1,7 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="SELECT_CATEGORY" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="8e8b4c91-42fa-4235-b67c-05dd8b6360a6" weightsEnabled="false">
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="SELECT_CATEGORY" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8e8b4c91-42fa-4235-b67c-05dd8b6360a6" weightsEnabled="false">
     <weighted-embedded-action uid="b1993537-cc86-47b6-b861-99f0c592cdc7"/>
     <weighted-embedded-action uid="712d4fab-bda4-485d-8bd7-3b2e254a3590"/>
 </basic-logical-action-container>

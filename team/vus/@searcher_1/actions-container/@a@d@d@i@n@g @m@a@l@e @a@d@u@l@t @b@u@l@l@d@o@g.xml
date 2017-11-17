@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ADDING MALE ADULT BULLDOG" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="29812114-933d-4750-bacf-0a11a4b10063" weightsEnabled="false">
+    <weighted-embedded-action uid="266b94f0-e6a9-4cc3-9a5f-976661162ef4"/>
+</basic-logical-action-container>
